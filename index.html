@@ -3,254 +3,188 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="DE ZERO A FARDA PMRJ — As apostilas completas e atualizadas para você ser aprovado no concurso da Polícia Militar do Rio de Janeiro. Do zero à aprovação." />
+  <meta name="description" content="DE ZERO A FARDA PMRJ — O método mais completo e atualizado para você conquistar sua vaga na Polícia Militar do Rio de Janeiro. Do zero à aprovação." />
   <title>DE ZERO A FARDA PMRJ | Sua Aprovação na Polícia Militar do RJ</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- BARRA DE ALERTA / ESCASSEZ -->
+  <!-- BARRA DE ESCASSEZ -->
   <div class="topbar">
-    🔥 OFERTA DE LANÇAMENTO — Condição especial por tempo limitado. Restam poucas vagas com o preço promocional!
+    🔥 OFERTA DE LANÇAMENTO — Condição especial por tempo limitado. Garanta o preço promocional enquanto durar!
   </div>
 
   <!-- NAVBAR -->
   <nav class="navbar">
     <div class="container navbar-inner">
-      <a href="#" class="nav-logo">PMRJ</a>
+      <a href="#" class="nav-logo">
+        <span class="shield">PM</span>
+        <span><b>DE ZERO À FARDA</b><small>PMRJ</small></span>
+      </a>
       <ul class="nav-links">
-        <li><a href="#produto">Produto</a></li>
-        <li><a href="#oferta">Planos</a></li>
+        <li><a href="#curso">O Curso</a></li>
+        <li><a href="#conteudo">Conteúdo</a></li>
+        <li><a href="#bonus">Bônus</a></li>
         <li><a href="#prova">Depoimentos</a></li>
-        <li><a href="#faq">Dúvidas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li class="nav-cta-li"><a href="#oferta" class="nav-cta">Quero minha vaga</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- HERO -->
   <header class="hero">
-    <div class="hero-overlay"></div>
-    <canvas id="hero3d" class="hero-3d"></canvas>
-    <div class="container hero-content">
-      <span class="badge">CONCURSO PMERJ • SOLDADO</span>
-      <h1 class="hero-heading">DE ZERO <span class="accent js-scramble" data-texto="À FARDA">À FARDA</span> PMRJ</h1>
+    <div class="hero-shield-bg"><span class="star">★</span></div>
+    <div class="hero-tags">
+      <span>Disciplina</span><span>Foco</span><span>Aprovação</span><span>Liberdade</span>
+    </div>
+    <div class="salary-card">
+      <p class="lbl">Salário inicial</p>
+      <p class="val">R$ 5.233,88</p>
+      <p class="hint">podendo chegar a R$ 9.313,32 com progressões</p>
+    </div>
+    <div class="container hero-content reveal">
+      <span class="eyebrow">Curso completo</span>
+      <h1>DO ZERO <span class="big js-scramble" data-texto="À FARDA">À FARDA</span> PMRJ</h1>
+      <p class="hero-sub">O método mais completo e atualizado para você conquistar sua vaga na Polícia Militar do Rio de Janeiro.</p>
 
-      <div class="js-troca">
-        <span>Comece hoje e conquiste</span>
-        <span class="janela"><span class="fita">
-          <span>a farda</span><span>a aprovação</span><span>a estabilidade</span><span>seu futuro</span><span>a farda</span>
-        </span></span>
+      <div class="hero-feats">
+        <div><span class="ic">📘</span> <b>Conteúdo 100% atualizado</b></div>
+        <div><span class="ic">🎯</span> <b>Método organizado</b></div>
+        <div><span class="ic">💬</span> <b>Suporte com especialistas</b></div>
+        <div><span class="ic">⚡</span> <b>Acesso imediato</b></div>
       </div>
 
-      <p class="hero-sub">
-        O material de estudos definitivo para quem quer sair do zero e vestir a farda da
-        <strong>Polícia Militar do Rio de Janeiro</strong> — mesmo começando sem saber por onde iniciar.
-      </p>
+      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO COMEÇAR AGORA →</a>
 
-      <ul class="hero-points">
-        <li>✔ Apostilas completas e atualizadas com o edital</li>
-        <li>✔ Linguagem simples, direta e sem enrolação</li>
-        <li>✔ Cronograma de estudos + questões comentadas</li>
-      </ul>
-
-      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO MINHAS APOSTILAS AGORA ▸</a>
-      <p class="hero-guarantee">🔒 Compra 100% segura • Acesso imediato • Garantia de 7 dias</p>
-
-      <div class="hero-stats">
-        <div><strong>+2.000</strong><span>alunos estudando</span></div>
-        <div><strong>4,9★</strong><span>avaliação média</span></div>
-        <div><strong>100%</strong><span>alinhado ao edital</span></div>
+      <div class="hero-social">
+        <div class="avatars"><span>👮</span><span>🧑</span><span>👩</span><span>🧔</span></div>
+        <div>
+          <div class="stars">★★★★★</div>
+          <small>+2.000 alunos já estão no caminho da farda</small>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- MARQUEE (reativo ao scroll) -->
+  <!-- MARQUEE -->
   <section class="marquee-sec">
-    <div class="marquee-row" id="mqRow1">
-      <div class="mq-track">
-        <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
-        <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
-      </div>
-    </div>
-    <div class="marquee-row" id="mqRow2">
-      <div class="mq-track">
-        <span class="mq-chip gold">⭐ SIMULADOS ATUALIZADOS</span><span class="mq-chip gold">📅 CRONOGRAMA DE ESTUDOS</span><span class="mq-chip gold">📝 QUESTÕES COMENTADAS</span><span class="mq-chip gold">💪 GUIA DO TAF</span><span class="mq-chip gold">📄 MAPAS MENTAIS</span>
-        <span class="mq-chip gold">⭐ SIMULADOS ATUALIZADOS</span><span class="mq-chip gold">📅 CRONOGRAMA DE ESTUDOS</span><span class="mq-chip gold">📝 QUESTÕES COMENTADAS</span><span class="mq-chip gold">💪 GUIA DO TAF</span><span class="mq-chip gold">📄 MAPAS MENTAIS</span>
-      </div>
-    </div>
+    <div class="marquee-row"><div class="mq-track" id="mqRow1">
+      <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
+      <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
+    </div></div>
   </section>
 
-  <!-- FAIXA DE CONFIANÇA -->
-  <div class="trustbar">
-    <div class="container trustbar-inner">
-      <span>⚡ Acesso imediato</span>
-      <span>🔒 Pagamento seguro</span>
-      <span>📱 Estude no celular</span>
-      <span>♾️ Opção vitalícia</span>
-      <span>↩️ Garantia de 7 dias</span>
-    </div>
-  </div>
-
-  <!-- DORES -->
-  <section class="section section-dark">
-    <div class="container">
-      <h2 class="section-title">Você se identifica com isso?</h2>
-      <div class="pain-grid">
-        <div class="pain-card">😓<p>Quer passar na PMERJ, mas <strong>não sabe por onde começar</strong> a estudar.</p></div>
-        <div class="pain-card">📚<p>Se perde em meio a <strong>milhares de PDFs e vídeos soltos</strong> na internet.</p></div>
-        <div class="pain-card">⏳<p>Tem <strong>pouco tempo</strong> e precisa estudar o que realmente cai na prova.</p></div>
-        <div class="pain-card">💸<p>Não quer gastar <strong>uma fortuna</strong> em cursinhos caros e demorados.</p></div>
-      </div>
-      <p class="section-lead center">
-        Se você respondeu "sim" para pelo menos uma dessas, o <strong>DE ZERO A FARDA PMRJ</strong> foi feito para você.
-      </p>
-    </div>
-  </section>
-
-  <!-- APRESENTAÇÃO DO PRODUTO -->
-  <section id="produto" class="section">
+  <!-- TUDO EM UM SÓ LUGAR -->
+  <section id="curso" class="section">
     <div class="container two-col">
-      <div class="two-col-media">
+      <div class="reveal">
         <div class="mock">
           <div class="mock-cover">
-            <span class="mock-badge">PMERJ</span>
-            <h3>DE ZERO<br><span>À FARDA</span></h3>
+            <span>PMERJ</span>
+            <h3>DO ZERO<br><b>À FARDA</b></h3>
             <p>APOSTILAS COMPLETAS</p>
           </div>
         </div>
       </div>
-      <div class="two-col-text">
-        <h2 class="section-title left">O caminho completo da aprovação em um só material</h2>
-        <p>
-          O <strong>DE ZERO A FARDA PMRJ</strong> é um conjunto de apostilas construído para te levar do absoluto
-          zero até a aprovação, organizando <strong>todo o conteúdo do edital</strong> em uma sequência lógica,
-          revisável e fácil de seguir.
-        </p>
-        <p>
-          Nada de material genérico. Cada módulo foi pensado para o perfil da prova da
-          <strong>Polícia Militar do Rio de Janeiro</strong>, com foco no que mais cai e em como a banca cobra.
-        </p>
-        <a href="#oferta" class="btn btn-primary js-elastico">GARANTIR MEU ACESSO ▸</a>
+      <div class="reveal">
+        <h2 class="section-head" style="text-align:left;margin-bottom:24px"><span style="font-size:clamp(1.9rem,5vw,3.2rem);text-transform:uppercase;color:#fff;line-height:1.05;display:block">Tudo em um <span class="accent-blue">só lugar</span></span></h2>
+        <p style="color:var(--muted);margin-bottom:24px">Estude com um método completo, prático e organizado, pensado para quem quer sair do zero e conquistar a farda da PMERJ.</p>
+        <ul class="check-list">
+          <li>Apostilas completas e atualizadas com o edital</li>
+          <li>Material em PDF completo e atualizado</li>
+          <li>Questões e simulados comentados</li>
+          <li>Provas anteriores da PMERJ</li>
+          <li>Plano de estudos e cronograma pronto</li>
+          <li>Suporte com especialistas</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- CONTEÚDO DAS APOSTILAS -->
-  <section class="section section-light">
+  <!-- CONTEÚDO COMPLETO -->
+  <section id="conteudo" class="section">
     <div class="container">
-      <h2 class="section-title">O que tem dentro das apostilas</h2>
-      <p class="section-lead center">Todo o conteúdo exigido no edital, dividido em módulos objetivos:</p>
-      <div class="content-grid">
-        <div class="content-card"><span>📘</span><h4>Língua Portuguesa</h4><p>Gramática, interpretação de texto e redação oficial descomplicadas.</p></div>
-        <div class="content-card"><span>🧮</span><h4>Matemática & Raciocínio Lógico</h4><p>Do básico ao avançado, com passo a passo e macetes.</p></div>
-        <div class="content-card"><span>⚖️</span><h4>Noções de Direito</h4><p>Constitucional, Penal, Administrativo e Direitos Humanos.</p></div>
-        <div class="content-card"><span>🏛️</span><h4>Legislação PMERJ</h4><p>Estatuto, regulamentos e legislação institucional específica.</p></div>
-        <div class="content-card"><span>🌎</span><h4>História & Geografia do RJ</h4><p>Conteúdo regional focado no que a banca costuma cobrar.</p></div>
-        <div class="content-card"><span>💻</span><h4>Informática & Atualidades</h4><p>Temas essenciais e revisão de atualidades para a prova.</p></div>
+      <div class="section-head reveal">
+        <h2>Conteúdo <span class="accent-blue">completo e atualizado</span></h2>
+        <p>Todas as disciplinas que realmente caem na prova da PMERJ.</p>
+      </div>
+      <div class="subjects reveal">
+        <div class="subject"><span class="ic">📘</span><h4>Língua Portuguesa</h4></div>
+        <div class="subject"><span class="ic">🧮</span><h4>Matemática Básica</h4></div>
+        <div class="subject"><span class="ic">🕊️</span><h4>Direitos Humanos</h4></div>
+        <div class="subject"><span class="ic">🏛️</span><h4>Direito Administrativo</h4></div>
+        <div class="subject"><span class="ic">📜</span><h4>Legislação Aplicada à PMERJ</h4></div>
+        <div class="subject"><span class="ic">⚖️</span><h4>Direito Penal</h4></div>
+        <div class="subject"><span class="ic">📑</span><h4>Direito Processual Penal</h4></div>
+        <div class="subject"><span class="ic">✍️</span><h4>Redação</h4></div>
+        <div class="subject"><span class="ic">🧠</span><h4>Raciocínio Lógico</h4></div>
+        <div class="subject"><span class="ic">🌎</span><h4>Geografia e História do RJ</h4></div>
+        <div class="subject"><span class="ic">📝</span><h4>Questões Comentadas</h4></div>
+        <div class="subject"><span class="ic">💻</span><h4>Informática e Atualidades</h4></div>
       </div>
     </div>
   </section>
 
   <!-- BÔNUS -->
-  <section class="section section-dark">
+  <section id="bonus" class="section section-bonus">
     <div class="container">
-      <h2 class="section-title">🎁 Bônus exclusivos que você leva junto</h2>
-      <div class="bonus-grid">
-        <div class="bonus-card"><h4>Bônus #1</h4><p>📅 <strong>Cronograma de Estudos</strong> pronto para seguir do zero até a prova.</p></div>
-        <div class="bonus-card"><h4>Bônus #2</h4><p>📝 <strong>Caderno de Questões Comentadas</strong> para treinar e fixar o conteúdo.</p></div>
-        <div class="bonus-card"><h4>Bônus #3</h4><p>📄 <strong>Resumos e Mapas Mentais</strong> para revisão rápida de véspera.</p></div>
-        <div class="bonus-card"><h4>Bônus #4</h4><p>💪 <strong>Guia do TAF</strong> com orientações para o Teste de Aptidão Física.</p></div>
+      <div class="section-head reveal">
+        <h2>🎁 Bônus <span class="accent-blue">exclusivos</span></h2>
+        <p>Além de todo o conteúdo principal, você ainda recebe:</p>
+      </div>
+      <div class="bonus-grid reveal">
+        <div class="bonus-card"><div class="bonus-ic">📅</div><h4>Plano de Estudos Personalizado</h4><p>Cronograma pronto do zero até a prova.</p></div>
+        <div class="bonus-card"><div class="bonus-ic">📄</div><h4>Mapas Mentais</h4><p>Revisão rápida e visual de véspera.</p></div>
+        <div class="bonus-card"><div class="bonus-ic">🎯</div><h4>Estratégias de Prova</h4><p>Como pontuar mais no dia do exame.</p></div>
+        <div class="bonus-card"><div class="bonus-ic">📘</div><h4>Edital Resumido</h4><p>O essencial do edital descomplicado.</p></div>
+        <div class="bonus-card"><div class="bonus-ic">💬</div><h4>Grupo de Suporte</h4><p>Tire dúvidas e estude acompanhado.</p></div>
+        <div class="bonus-card"><div class="bonus-ic">♾️</div><h4>Atualizações Gratuitas</h4><p>Material novo sempre que o edital mudar.*</p></div>
       </div>
     </div>
   </section>
 
-  <!-- BENEFÍCIOS -->
-  <section class="section">
+  <!-- DEPOIMENTOS -->
+  <section id="prova" class="section">
     <div class="container">
-      <h2 class="section-title">Por que o DE ZERO A FARDA PMRJ funciona</h2>
-      <div class="benefit-list">
-        <div class="benefit"><span>✅</span><div><h4>Feito para iniciantes</h4><p>Você não precisa de nenhum conhecimento prévio. Começamos do zero de verdade.</p></div></div>
-        <div class="benefit"><span>✅</span><div><h4>Direto ao ponto</h4><p>Só o que cai na prova, sem páginas e páginas de teoria inútil.</p></div></div>
-        <div class="benefit"><span>✅</span><div><h4>Estude no seu ritmo</h4><p>Acesso digital imediato, no celular, tablet ou computador — onde e quando quiser.</p></div></div>
-        <div class="benefit"><span>✅</span><div><h4>Material atualizado</h4><p>Conteúdo alinhado ao edital da PMERJ e às tendências da banca.</p></div></div>
+      <div class="section-head reveal">
+        <h2>Quem já conquistou, <span class="accent-blue">recomenda!</span></h2>
       </div>
-
-      <div class="js-transicao">
-        <div class="tela t1">📚 Apostilas completas do edital</div>
-        <button class="btn btn-ghost">Ver o que mais você recebe ▸</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROVA SOCIAL -->
-  <section id="prova" class="section section-light">
-    <div class="container">
-      <h2 class="section-title">Quem estuda, aprova</h2>
-      <div class="testimonials">
+      <div class="testimonials reveal">
         <div class="testimonial">
-          <p>"Eu não sabia nem por onde começar. Com as apostilas consegui montar uma rotina e finalmente sinto que estou evoluindo."</p>
-          <span class="t-author">— Rafael M., Duque de Caxias</span>
+          <div class="t-top"><div class="ava">MS</div><div><b>Mateus S.</b><div class="stars">★★★★★</div></div></div>
+          <p>"O curso me deu o direcionamento que eu precisava. Material simples, aprendi e evoluí rápido."</p>
+          <span class="t-badge">✔ Aprovado PMERJ</span>
         </div>
         <div class="testimonial">
-          <p>"Material direto e fácil de entender. Os resumos salvaram minha revisão na reta final."</p>
-          <span class="t-author">— Juliana S., Rio de Janeiro</span>
+          <div class="t-top"><div class="ava">JM</div><div><b>Juliana M.</b><div class="stars">★★★★★</div></div></div>
+          <p>"Material completo, didático e organizado. Tirei nota alta e hoje estou mais perto da aprovação."</p>
+          <span class="t-badge">✔ Aprovada PMERJ</span>
         </div>
         <div class="testimonial">
-          <p>"Valeu cada centavo. Muito mais barato que cursinho e com tudo organizado num lugar só."</p>
-          <span class="t-author">— Anderson P., Niterói</span>
+          <div class="t-top"><div class="ava">CR</div><div><b>Carlos R.</b><div class="stars">★★★★★</div></div></div>
+          <p>"Valeu muito a pena. Conteúdo direto e revisões que me ajudaram muito. Recomendo demais o curso!"</p>
+          <span class="t-badge">✔ Aprovado PMERJ</span>
         </div>
       </div>
-
-      <h3 class="wall-title">Mural de quem está na jornada 👇</h3>
-      <p class="wall-hint">role dentro do quadro para ver mais relatos</p>
-      <div class="js-inercia">
-        <div class="trilho">
-          <div class="item">⭐⭐⭐⭐⭐ "Os simulados atualizados são o que mais me ajudam a sentir o nível da prova." — <strong>Carla T., São Gonçalo</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "Comecei do zero absoluto. Hoje já resolvo questões de Direito com segurança." — <strong>Diego R., Nova Iguaçu</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "O cronograma me deu disciplina. Finalmente parei de estudar sem direção." — <strong>Vanessa L., Rio de Janeiro</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "O guia do TAF me ajudou a preparar o físico junto com a teoria." — <strong>Marcos A., Belford Roxo</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "Plano vitalício valeu demais — recebo material novo sempre." — <strong>Priscila M., Niterói</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "Resumos e mapas mentais salvaram minha revisão de véspera." — <strong>Thiago S., Duque de Caxias</strong></div>
-          <div class="item">⭐⭐⭐⭐⭐ "Muito mais barato que cursinho e muito mais organizado." — <strong>Larissa F., São João de Meriti</strong></div>
-        </div>
-      </div>
-
       <p class="disclaimer">*Depoimentos ilustrativos. Os resultados variam conforme a dedicação de cada aluno.</p>
     </div>
   </section>
 
-  <!-- ANTES E DEPOIS (máscara que revela) -->
-  <section class="js-mascara">
-    <div class="fixo">
-      <!-- DEPOIS (embaixo): aprovado -->
-      <div class="cena depois">
-        <span class="rotulo">Depois</span>
-        <h2>Fardado, aprovado e realizado na PMERJ.</h2>
-        <p>Com um plano claro e material certo, a aprovação deixa de ser sonho e vira questão de tempo.</p>
-      </div>
-      <!-- ANTES (em cima): perdido — vai sendo "furado" pela rolagem -->
-      <div class="cena antes">
-        <span class="rotulo">Antes</span>
-        <h2>Perdido, sem rumo e sem saber por onde começar.</h2>
-        <p>Mil PDFs, vídeos soltos e aquela sensação de que o concurso é impossível. Role para ver a virada 👇</p>
-        <span class="scroll-dica">▼ role para revelar</span>
-      </div>
-    </div>
-    <div class="alto"></div>
-  </section>
-
-  <!-- OFERTA / PREÇO -->
+  <!-- OFERTA / 3 PLANOS -->
   <section id="oferta" class="section section-offer">
     <div class="container">
-      <h2 class="section-title">Escolha o seu plano de aprovação</h2>
-      <p class="section-lead center">Todos em condição de lançamento. Escolha como quer estudar — mas lembre: só um te dá acesso <strong>vitalício e simulados sempre atualizados</strong>.</p>
+      <div class="section-head reveal">
+        <h2>Escolha o seu <span class="accent-blue">plano de aprovação</span></h2>
+        <p>Todos em condição de lançamento. Só o Plano Completo te dá acesso vitalício e simulados sempre atualizados.</p>
+      </div>
 
-      <div class="plans">
+      <div class="plans reveal">
 
-        <!-- PLANO 1 - BÁSICO -->
+        <!-- INICIAL -->
         <div class="plan">
           <span class="plan-promo">PROMOÇÃO</span>
           <h3 class="plan-name">Plano Inicial</h3>
@@ -269,10 +203,10 @@
           <a href="#" class="btn btn-ghost">Começar com o básico</a>
         </div>
 
-        <!-- PLANO 3 - COMPLETO (DESTAQUE) -->
+        <!-- COMPLETO (DESTAQUE) -->
         <div class="plan plan-featured">
           <span class="plan-flag">⭐ MAIS ESCOLHIDO</span>
-          <span class="plan-promo promo-gold">MELHOR CUSTO-BENEFÍCIO</span>
+          <span class="plan-promo blue">MELHOR CUSTO-BENEFÍCIO</span>
           <h3 class="plan-name">Plano Completo <span class="plan-vitalicio">VITALÍCIO</span></h3>
           <p class="plan-desc">Tudo o que você precisa, para sempre, com simulados sempre novos.</p>
           <p class="plan-from">De <s>R$ 297</s> por</p>
@@ -281,17 +215,17 @@
           <div class="plan-access access-gold">♾️ Acesso <strong>VITALÍCIO</strong> (para sempre)</div>
           <ul class="plan-features">
             <li class="yes"><strong>Todas as apostilas completas</strong></li>
-            <li class="yes"><strong>Todos os 4 bônus exclusivos</strong></li>
-            <li class="yes star"><strong>Simulados NOVOS atualizados periodicamente</strong></li>
-            <li class="yes star"><strong>Banco de questões sempre renovado</strong></li>
-            <li class="yes star"><strong>Acesso VITALÍCIO + atualizações grátis</strong></li>
-            <li class="yes">Área de membros + suporte prioritário</li>
+            <li class="yes"><strong>Todos os bônus exclusivos</strong></li>
+            <li class="yes star"><strong>Simulados NOVOS atualizados</strong></li>
+            <li class="yes star"><strong>Banco de questões renovado</strong></li>
+            <li class="yes star"><strong>Acesso VITALÍCIO + atualizações</strong></li>
+            <li class="yes">Suporte prioritário</li>
           </ul>
-          <a href="#" class="btn btn-primary pulse js-elastico">QUERO O PLANO COMPLETO ▸</a>
-          <p class="plan-note">💛 A escolha de 9 em cada 10 alunos</p>
+          <a href="#" class="btn btn-primary pulse js-elastico">QUERO O PLANO COMPLETO →</a>
+          <p class="plan-note">💙 A escolha de 9 em cada 10 alunos</p>
         </div>
 
-        <!-- PLANO 2 - INTERMEDIÁRIO -->
+        <!-- ESSENCIAL -->
         <div class="plan">
           <span class="plan-promo">PROMOÇÃO</span>
           <h3 class="plan-name">Plano Essencial</h3>
@@ -302,7 +236,7 @@
           <div class="plan-access">⏳ Acesso por <strong>8 meses</strong></div>
           <ul class="plan-features">
             <li class="yes">Todas as apostilas completas</li>
-            <li class="yes">Os 4 bônus exclusivos</li>
+            <li class="yes">Os bônus exclusivos</li>
             <li class="no">Simulados atualizados</li>
             <li class="no">Banco de questões renovado</li>
             <li class="no">Acesso vitalício</li>
@@ -312,35 +246,38 @@
 
       </div>
 
-      <p class="price-secure center">🔒 Pagamento 100% seguro • Cartão, Pix ou Boleto • Garantia de 7 dias em todos os planos</p>
+      <div class="offer-secure">
+        <span>🔒 Pagamento 100% seguro</span>
+        <span>💳 Cartão, Pix ou Boleto</span>
+        <span>⚡ Acesso imediato</span>
+        <span>↩️ Garantia de 7 dias</span>
+      </div>
     </div>
   </section>
 
   <!-- GARANTIA -->
   <section class="section">
-    <div class="container guarantee">
-      <div class="guarantee-seal">7<br><small>DIAS</small></div>
-      <div>
-        <h2 class="section-title left">Risco zero para você</h2>
-        <p>
-          Estude as apostilas por <strong>7 dias</strong>. Se por qualquer motivo você achar que o material não é para você,
-          é só pedir o reembolso dentro desse prazo e devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas,
-          sem burocracia. Todo o risco é nosso.
-        </p>
+    <div class="container">
+      <div class="guarantee reveal">
+        <div class="guarantee-seal">7<br><small>DIAS</small></div>
+        <div>
+          <h3>Risco zero para você</h3>
+          <p>Estude por <strong style="color:#fff">7 dias</strong>. Se achar que o material não é para você, devolvemos <strong style="color:#fff">100% do seu dinheiro</strong>. Sem perguntas, sem burocracia. Todo o risco é nosso.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="section section-light">
+  <section id="faq" class="section">
     <div class="container">
-      <h2 class="section-title">Perguntas frequentes</h2>
-      <div class="faq">
+      <div class="section-head reveal"><h2>Perguntas <span class="accent-blue">frequentes</span></h2></div>
+      <div class="faq reveal">
         <details><summary>As apostilas são físicas ou digitais?</summary><p>São 100% digitais (PDF). Você recebe o acesso imediatamente após a confirmação do pagamento e pode estudar no celular, tablet ou computador.</p></details>
         <details><summary>O material serve para quem está começando do zero?</summary><p>Sim! Esse é exatamente o propósito do DE ZERO A FARDA PMRJ: te levar do absoluto zero até a aprovação, mesmo sem conhecimento prévio.</p></details>
-        <details><summary>Qual a diferença entre os planos?</summary><p>O <strong>Plano Inicial (R$ 37)</strong> traz as apostilas e o cronograma, com <strong>acesso por 3 meses</strong>. O <strong>Essencial (R$ 67)</strong> inclui também os 4 bônus, com <strong>acesso por 8 meses</strong>. Já o <strong>Plano Completo (R$ 97)</strong> é o único com <strong>acesso vitalício</strong>, <strong>simulados novos atualizados periodicamente</strong>, banco de questões sempre renovado e suporte prioritário — por isso é o mais escolhido.</p></details>
-        <details><summary>Os simulados são realmente atualizados?</summary><p>Sim! No Plano Completo você recebe <strong>simulados novos e um banco de questões renovado periodicamente</strong>, acompanhando o estilo da banca e as tendências do concurso — sem pagar nada a mais por isso.</p></details>
+        <details><summary>Qual a diferença entre os planos?</summary><p>O <strong>Plano Inicial (R$ 37)</strong> traz as apostilas e o cronograma, com <strong>acesso por 3 meses</strong>. O <strong>Essencial (R$ 67)</strong> inclui também os bônus, com <strong>acesso por 8 meses</strong>. Já o <strong>Plano Completo (R$ 97)</strong> é o único com <strong>acesso vitalício</strong>, <strong>simulados novos atualizados</strong>, banco de questões renovado e suporte prioritário — por isso é o mais escolhido.</p></details>
         <details><summary>Por quanto tempo tenho acesso?</summary><p>Depende do plano: <strong>3 meses</strong> no Inicial, <strong>8 meses</strong> no Essencial e <strong>vitalício (para sempre)</strong> no Plano Completo — este último com todas as atualizações futuras incluídas de graça.</p></details>
+        <details><summary>Os simulados são realmente atualizados?</summary><p>Sim! No Plano Completo você recebe simulados novos e um banco de questões renovado periodicamente, acompanhando o estilo da banca e as tendências do concurso.</p></details>
         <details><summary>Como funciona a garantia?</summary><p>Todos os planos têm 7 dias de garantia. Se não gostar, devolvemos 100% do seu investimento, sem burocracia.</p></details>
         <details><summary>Quais as formas de pagamento?</summary><p>Cartão de crédito (em até 12x), Pix e Boleto bancário.</p></details>
       </div>
@@ -348,376 +285,75 @@
   </section>
 
   <!-- CTA FINAL -->
-  <section class="section section-finalcta">
-    <div class="container center">
-      <h2>Sua farda está te esperando.</h2>
-      <p>Comece hoje a jornada DE ZERO A FARDA PMRJ e dê o primeiro passo rumo à sua aprovação.</p>
-      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO MINHAS APOSTILAS ▸</a>
+  <section class="final-cta">
+    <div class="container reveal">
+      <h2>A sua vaga no Rio pode estar mais <span class="accent-blue">próxima do que você imagina.</span></h2>
+      <p>Com o método certo, disciplina e o conteúdo completo, você também pode conquistar a farda da PMERJ.</p>
+      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO COMEÇAR AGORA →</a>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p><strong>DE ZERO A FARDA PMRJ</strong></p>
+      <p><b>DE ZERO A FARDA PMRJ</b></p>
       <p>Material de estudos independente. Não possui vínculo oficial com a Polícia Militar do Estado do Rio de Janeiro.</p>
       <p class="footer-small">© 2026 — Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <!-- ═══ EFEITOS INTERATIVOS (adaptados da vitrine do canal Não Codei) ═══ -->
+  <!-- ===== EFEITOS ===== -->
   <script>
-    var FX = {};
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    /* ── Ferramentas de apoio ── */
-    var lerp = function (a, b, t) { return a + (b - a) * t; };
-    var limitar = function (v, min, max) { return Math.max(min, Math.min(max, v)); };
+    // Reveal ao rolar
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
 
-    /* laço que só roda enquanto o elemento está visível */
-    function laco(card, passo) {
-      var id = null, vivo = false, respondeu = false;
-      function rodar() { passo(); id = requestAnimationFrame(rodar); }
-      function ligar() { if (!vivo) { vivo = true; rodar(); } }
-      function desligar() { if (vivo) { vivo = false; cancelAnimationFrame(id); } }
-      var obs = new IntersectionObserver(function (e) {
-        respondeu = true;
-        e[0].isIntersecting ? ligar() : desligar();
-      }, { threshold: 0 });
-      obs.observe(card);
-      setTimeout(function () { if (!respondeu) ligar(); }, 1500);
-      return function () { cancelAnimationFrame(id); obs.disconnect(); };
-    }
+    // Botão elástico (mola)
+    document.querySelectorAll('.js-elastico').forEach(function (btn) {
+      var escala = 1, vel = 0, alvo = 1, raf;
+      btn.addEventListener('mouseenter', function () { alvo = 1.06; });
+      btn.addEventListener('mouseleave', function () { alvo = 1; });
+      btn.addEventListener('mousedown', function () { alvo = 0.93; });
+      btn.addEventListener('mouseup', function () { alvo = 1.06; });
+      (function loop() {
+        var f = (alvo - escala) * 0.22; vel = (vel + f) * 0.72; escala += vel;
+        btn.style.transform = 'scale(' + escala + ')';
+        raf = requestAnimationFrame(loop);
+      })();
+    });
 
-    /* progresso 0→1 de uma seção "alta" passando pela viewport (para a máscara) */
-    function aoRolar(secao, passo) {
-      function onScroll() {
-        var r = secao.getBoundingClientRect();
-        var total = r.height - window.innerHeight;
-        var p = limitar((-r.top) / (total || 1), 0, 1);
-        passo(p);
-      }
-      window.addEventListener('scroll', onScroll, { passive: true });
-      window.addEventListener('resize', onScroll);
-      onScroll();
-      return function () { window.removeEventListener('scroll', onScroll); };
-    }
-
-    /* 12 · LUZ QUE SEGUE O MOUSE — JS só escreve --x/--y; brilho é CSS */
-    FX.luz = function (root) {
-      root.querySelectorAll('.plan, .content-card').forEach(function (el) {
-        el.addEventListener('mousemove', function (ev) {
-          var r = el.getBoundingClientRect();
-          el.style.setProperty('--x', (ev.clientX - r.left) + 'px');
-          el.style.setProperty('--y', (ev.clientY - r.top) + 'px');
-        });
-      });
-    };
-
-    /* 10 · ROLAGEM COM INÉRCIA — o trilho persegue a posição da rolagem */
-    FX.inercia = function (root) {
-      var caixa = root.querySelector('.js-inercia');
-      if (!caixa) return;
-      var trilho = caixa.querySelector('.trilho');
-      var alvo = 0, atual = 0;
-      var max = function () { return Math.max(0, trilho.scrollHeight - caixa.clientHeight); };
-      caixa.addEventListener('wheel', function (ev) {
-        ev.preventDefault();
-        alvo = limitar(alvo + ev.deltaY, 0, max());
-      }, { passive: false });
-      // suporte a toque no mobile
-      var toqueY = 0;
-      caixa.addEventListener('touchstart', function (ev) { toqueY = ev.touches[0].clientY; }, { passive: true });
-      caixa.addEventListener('touchmove', function (ev) {
-        var dy = toqueY - ev.touches[0].clientY; toqueY = ev.touches[0].clientY;
-        alvo = limitar(alvo + dy, 0, max());
-      }, { passive: true });
-      laco(caixa, function () {
-        atual = lerp(atual, alvo, 0.08);
-        trilho.style.transform = 'translateY(' + (-atual) + 'px)';
-      });
-    };
-
-    /* 05 · MÁSCARA QUE REVELA — círculo encolhe e descobre a cena de baixo */
-    FX.mascara = function (root) {
-      var secao = root.querySelector('.js-mascara');
-      if (!secao) return;
-      var antes = secao.querySelector('.antes');
-      aoRolar(secao, function (p) {
-        var raio = 150 - p * 150;                 // de 150% a 0
-        antes.style.clipPath = 'circle(' + Math.max(0, raio) + '% at 50% 50%)';
-      });
-    };
-
-    /* 14 · BOTÃO ELÁSTICO — mola física com velocidade e amortecimento */
-    FX.elastico = function (root) {
-      root.querySelectorAll('.js-elastico').forEach(function (btn) {
-        var escala = 1, vel = 0, alvo = 1;
-        btn.addEventListener('mouseenter', function () { alvo = 1.08; });
-        btn.addEventListener('mouseleave', function () { alvo = 1; });
-        btn.addEventListener('mousedown', function () { alvo = 0.92; });
-        btn.addEventListener('mouseup', function () { alvo = 1.08; });
-        laco(btn, function () {
-          var forca = (alvo - escala) * 0.22;     // rigidez
-          vel = (vel + forca) * 0.72;             // amortecimento
-          escala += vel;
-          btn.style.transform = 'scale(' + escala + ')';
-        });
-      });
-    };
-
-    /* 15 · EMBARALHAR LETRAS — estilo painel de aeroporto */
-    FX.scramble = function (root) {
-      root.querySelectorAll('.js-scramble').forEach(function (el) {
-        var final = el.dataset.texto || el.textContent;
+    // Embaralhar letras no "À FARDA"
+    if (!reduce) {
+      document.querySelectorAll('.js-scramble').forEach(function (el) {
+        var fim = el.dataset.texto || el.textContent;
         var sopa = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁ#%&@*';
-        var quadro = 0, id;
-        function girar() {
-          var saida = '', travadas = Math.floor(quadro / 3);
-          for (var i = 0; i < final.length; i++) {
-            saida += i < travadas ? final[i]
-              : (final[i] === ' ' ? ' ' : sopa[(Math.random() * sopa.length) | 0]);
-          }
-          el.textContent = saida;
-          quadro++;
-          if (travadas <= final.length) id = requestAnimationFrame(girar);
-        }
-        girar();
+        var q = 0;
+        (function girar() {
+          var out = '', lock = Math.floor(q / 3);
+          for (var i = 0; i < fim.length; i++) out += i < lock ? fim[i] : (fim[i] === ' ' ? ' ' : sopa[(Math.random() * sopa.length) | 0]);
+          el.textContent = out; q++;
+          if (lock <= fim.length) requestAnimationFrame(girar);
+        })();
       });
-    };
+    }
 
-    /* 17 · PALAVRAS QUE SE ALTERNAM — fita sobe e reinicia sem pulo */
-    FX.troca = function (root) {
-      var janela = root.querySelector('.js-troca .janela');
-      if (!janela) return;
-      var fita = janela.querySelector('.fita');
-      var itens = fita.children.length;
-      var i = 0;
-      setInterval(function () {
-        i++;
-        fita.style.transition = 'transform .5s cubic-bezier(.16,1,.3,1)';
-        fita.style.transform = 'translateY(' + (-i * 100 / itens) + '%)';
-        if (i === itens - 1) {
-          setTimeout(function () {
-            fita.style.transition = 'none';
-            fita.style.transform = 'translateY(0)';
-            i = 0;
-          }, 520);
-        }
-      }, 2000);
-    };
-
-    /* 30 · TRANSIÇÃO ENTRE TELAS — View Transitions API com fallback */
-    FX.transicao = function (root) {
-      var area = root.querySelector('.js-transicao');
-      if (!area) return;
-      var tela = area.querySelector('.tela');
-      var btn = area.querySelector('button');
-      var telas = [
-        { classe: 't1', texto: '📚 Apostilas completas do edital' },
-        { classe: 't2', texto: '📝 Simulados novos + banco de questões' },
-        { classe: 't3', texto: '🎁 4 bônus + acesso vitalício' }
-      ];
-      var estado = 0;
-      tela.style.viewTransitionName = 'tela';
-      btn.addEventListener('click', function () {
-        estado = (estado + 1) % telas.length;
-        var aplicar = function () {
-          tela.className = 'tela ' + telas[estado].classe;
-          tela.textContent = telas[estado].texto;
-        };
-        if (document.startViewTransition) document.startViewTransition(aplicar);
-        else aplicar();
-      });
-    };
-
-    /* MARQUEE REATIVO AO SCROLL — linhas deslizam conforme a rolagem (inspiração do portfólio 3D) */
-    FX.marquee = function () {
+    // Marquee reativo ao scroll
+    (function () {
       var sec = document.querySelector('.marquee-sec');
-      var r1 = document.querySelector('#mqRow1 .mq-track');
-      var r2 = document.querySelector('#mqRow2 .mq-track');
-      if (!sec || !r1 || !r2) return;
+      var r1 = document.getElementById('mqRow1');
+      if (!sec || !r1) return;
       function onScroll() {
         var top = sec.getBoundingClientRect().top + window.scrollY;
-        var off = (window.scrollY - top + window.innerHeight) * 0.3;
-        r1.style.transform = 'translateX(' + (off - 400) + 'px)';   // linha 1 → direita
-        r2.style.transform = 'translateX(' + (-(off - 400)) + 'px)'; // linha 2 → esquerda
+        var off = (window.scrollY - top + window.innerHeight) * 0.25;
+        r1.style.transform = 'translateX(' + (-(off - 400)) + 'px)';
       }
       window.addEventListener('scroll', onScroll, { passive: true });
       window.addEventListener('resize', onScroll);
       onScroll();
-    };
-
-    /* ── Liga tudo ── */
-    FX.luz(document);
-    FX.inercia(document);
-    FX.elastico(document);
-    FX.transicao(document);
-    FX.marquee();
-    if (reduce) {
-      // sem movimento: revela direto e mantém o texto final
-      var _a = document.querySelector('.js-mascara .antes');
-      if (_a) _a.style.clipPath = 'circle(0% at 50% 50%)';
-    } else {
-      FX.mascara(document);
-      FX.scramble(document);
-      FX.troca(document);
-    }
-    // Efeitos adaptados da vitrine de animações em JavaScript do canal Não Codei.
-  </script>
-
-  <!-- ===== HERO 3D (Three.js / WebGL) ===== -->
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://unpkg.com/three@0.182.0/build/three.module.js"
-    }
-  }
-  </script>
-  <script type="module">
-    import * as THREE from 'three';
-
-    const canvas = document.getElementById('hero3d');
-    // Respeita usuários que preferem menos movimento e navegadores sem WebGL.
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    let renderer;
-    try {
-      renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-    } catch (e) {
-      canvas.style.display = 'none';
-    }
-
-    if (renderer) {
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-
-      const scene = new THREE.Scene();
-
-      const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
-      camera.position.set(0, 0, 6.2);
-
-      // ---- Grupo do emblema ----
-      const emblem = new THREE.Group();
-      scene.add(emblem);
-
-      const gold = 0xf5b331;
-      const goldDark = 0xd99812;
-
-      // Escudo (brasão) — formato simétrico com ponta inferior
-      const shieldShape = new THREE.Shape();
-      shieldShape.moveTo(0, 1.7);                              // topo
-      shieldShape.lineTo(1.3, 1.1);                            // ombro direito
-      shieldShape.lineTo(1.3, -0.3);                           // lateral direita
-      shieldShape.quadraticCurveTo(1.3, -1.3, 0, -1.9);        // curva até a ponta
-      shieldShape.quadraticCurveTo(-1.3, -1.3, -1.3, -0.3);    // curva lado esquerdo
-      shieldShape.lineTo(-1.3, 1.1);                           // lateral esquerda
-      shieldShape.lineTo(0, 1.7);                              // volta ao topo
-
-      const shieldGeo = new THREE.ExtrudeGeometry(shieldShape, {
-        depth: 0.35,
-        bevelEnabled: true,
-        bevelThickness: 0.12,
-        bevelSize: 0.1,
-        bevelSegments: 4,
-        curveSegments: 24
-      });
-      shieldGeo.center();
-
-      const shieldMat = new THREE.MeshStandardMaterial({
-        color: gold,
-        metalness: 0.9,
-        roughness: 0.28
-      });
-      const shield = new THREE.Mesh(shieldGeo, shieldMat);
-      emblem.add(shield);
-
-      // Estrela central (5 pontas) em relevo
-      const starShape = new THREE.Shape();
-      const spikes = 5, outer = 0.78, inner = 0.33;
-      for (let i = 0; i < spikes * 2; i++) {
-        const r = i % 2 === 0 ? outer : inner;
-        const a = (Math.PI / spikes) * i - Math.PI / 2;
-        const x = Math.cos(a) * r, y = Math.sin(a) * r;
-        i === 0 ? starShape.moveTo(x, y) : starShape.lineTo(x, y);
-      }
-      starShape.closePath();
-      const starGeo = new THREE.ExtrudeGeometry(starShape, {
-        depth: 0.2, bevelEnabled: true, bevelThickness: 0.06, bevelSize: 0.05, bevelSegments: 2
-      });
-      starGeo.center();
-      const starMat = new THREE.MeshStandardMaterial({ color: 0xffffff, metalness: 0.6, roughness: 0.2 });
-      const star = new THREE.Mesh(starGeo, starMat);
-      star.position.z = 0.33;
-      emblem.add(star);
-
-      // Anel orbitando o emblema
-      const ringGeo = new THREE.TorusGeometry(2.1, 0.045, 16, 120);
-      const ringMat = new THREE.MeshStandardMaterial({ color: goldDark, metalness: 1, roughness: 0.35 });
-      const ring = new THREE.Mesh(ringGeo, ringMat);
-      ring.rotation.x = Math.PI / 2.4;
-      scene.add(ring);
-
-      // Partículas douradas de fundo
-      const pCount = 220;
-      const pPos = new Float32Array(pCount * 3);
-      for (let i = 0; i < pCount * 3; i++) pPos[i] = (Math.random() - 0.5) * 14;
-      const pGeo = new THREE.BufferGeometry();
-      pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
-      const pMat = new THREE.PointsMaterial({ color: gold, size: 0.045, transparent: true, opacity: 0.6 });
-      const particles = new THREE.Points(pGeo, pMat);
-      scene.add(particles);
-
-      // ---- Luzes ----
-      scene.add(new THREE.AmbientLight(0x6b7fb0, 0.6));
-      const key = new THREE.DirectionalLight(0xfff0d0, 2.2);
-      key.position.set(4, 5, 6);
-      scene.add(key);
-      const rim = new THREE.DirectionalLight(0xf5b331, 1.6);
-      rim.position.set(-5, -2, -3);
-      scene.add(rim);
-      const fill = new THREE.PointLight(0x4a7bd1, 1.2, 20);
-      fill.position.set(-3, 2, 4);
-      scene.add(fill);
-
-      // ---- Interatividade: leve parallax com o mouse ----
-      let targetX = 0, targetY = 0;
-      window.addEventListener('pointermove', (e) => {
-        targetX = (e.clientX / window.innerWidth - 0.5) * 0.5;
-        targetY = (e.clientY / window.innerHeight - 0.5) * 0.4;
-      });
-
-      // ---- Resize responsivo ----
-      function resize() {
-        const w = canvas.clientWidth || window.innerWidth;
-        const h = canvas.clientHeight || 1;
-        renderer.setSize(w, h, false);
-        camera.aspect = w / h;
-        camera.updateProjectionMatrix();
-      }
-      window.addEventListener('resize', resize);
-      resize();
-
-      // ---- Loop de animação ----
-      const clock = new THREE.Clock();
-      function animate() {
-        requestAnimationFrame(animate);
-        const t = clock.getElapsedTime();
-
-        if (!reduceMotion) {
-          emblem.rotation.y += 0.012;          // giro principal
-          emblem.rotation.x = Math.sin(t * 0.6) * 0.12 + targetY;
-          emblem.position.y = Math.sin(t * 1.1) * 0.12;   // flutuação sutil
-          ring.rotation.z += 0.006;
-          particles.rotation.y += 0.0008;
-        }
-        // parallax suave
-        emblem.rotation.y += (targetX - 0) * 0.0;
-        camera.position.x += (targetX * 1.2 - camera.position.x) * 0.05;
-        camera.lookAt(0, 0, 0);
-
-        renderer.render(scene, camera);
-      }
-      animate();
-    }
+    })();
   </script>
 
 </body>
