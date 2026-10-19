@@ -17,13 +17,26 @@
     🔥 OFERTA DE LANÇAMENTO — Condição especial por tempo limitado. Restam poucas vagas com o preço promocional!
   </div>
 
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="nav-logo">PMRJ</a>
+      <ul class="nav-links">
+        <li><a href="#produto">Produto</a></li>
+        <li><a href="#oferta">Planos</a></li>
+        <li><a href="#prova">Depoimentos</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- HERO -->
   <header class="hero">
     <div class="hero-overlay"></div>
     <canvas id="hero3d" class="hero-3d"></canvas>
     <div class="container hero-content">
       <span class="badge">CONCURSO PMERJ • SOLDADO</span>
-      <h1>DE ZERO <span class="accent js-scramble" data-texto="À FARDA">À FARDA</span> PMRJ</h1>
+      <h1 class="hero-heading">DE ZERO <span class="accent js-scramble" data-texto="À FARDA">À FARDA</span> PMRJ</h1>
 
       <div class="js-troca">
         <span>Comece hoje e conquiste</span>
@@ -54,6 +67,22 @@
     </div>
   </header>
 
+  <!-- MARQUEE (reativo ao scroll) -->
+  <section class="marquee-sec">
+    <div class="marquee-row" id="mqRow1">
+      <div class="mq-track">
+        <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
+        <span class="mq-chip">📘 PORTUGUÊS</span><span class="mq-chip">🧮 MATEMÁTICA</span><span class="mq-chip">⚖️ DIREITO</span><span class="mq-chip">🏛️ LEGISLAÇÃO PMERJ</span><span class="mq-chip">🌎 GEOGRAFIA DO RJ</span><span class="mq-chip">💻 INFORMÁTICA</span><span class="mq-chip">🧠 RACIOCÍNIO LÓGICO</span>
+      </div>
+    </div>
+    <div class="marquee-row" id="mqRow2">
+      <div class="mq-track">
+        <span class="mq-chip gold">⭐ SIMULADOS ATUALIZADOS</span><span class="mq-chip gold">📅 CRONOGRAMA DE ESTUDOS</span><span class="mq-chip gold">📝 QUESTÕES COMENTADAS</span><span class="mq-chip gold">💪 GUIA DO TAF</span><span class="mq-chip gold">📄 MAPAS MENTAIS</span>
+        <span class="mq-chip gold">⭐ SIMULADOS ATUALIZADOS</span><span class="mq-chip gold">📅 CRONOGRAMA DE ESTUDOS</span><span class="mq-chip gold">📝 QUESTÕES COMENTADAS</span><span class="mq-chip gold">💪 GUIA DO TAF</span><span class="mq-chip gold">📄 MAPAS MENTAIS</span>
+      </div>
+    </div>
+  </section>
+
   <!-- FAIXA DE CONFIANÇA -->
   <div class="trustbar">
     <div class="container trustbar-inner">
@@ -82,7 +111,7 @@
   </section>
 
   <!-- APRESENTAÇÃO DO PRODUTO -->
-  <section class="section">
+  <section id="produto" class="section">
     <div class="container two-col">
       <div class="two-col-media">
         <div class="mock">
@@ -157,7 +186,7 @@
   </section>
 
   <!-- PROVA SOCIAL -->
-  <section class="section section-light">
+  <section id="prova" class="section section-light">
     <div class="container">
       <h2 class="section-title">Quem estuda, aprova</h2>
       <div class="testimonials">
@@ -229,12 +258,13 @@
           <p class="plan-from">De <s>R$ 97</s> por</p>
           <div class="plan-price"><span class="cur">R$</span><span class="val">37</span></div>
           <p class="plan-install">ou 3x de R$ 12,70</p>
+          <div class="plan-access">⏳ Acesso por <strong>3 meses</strong></div>
           <ul class="plan-features">
             <li class="yes">Todas as apostilas completas</li>
             <li class="yes">Cronograma de estudos</li>
             <li class="no">Bônus exclusivos</li>
             <li class="no">Simulados atualizados</li>
-            <li class="no">Acesso vitalício <small>(6 meses)</small></li>
+            <li class="no">Acesso vitalício</li>
           </ul>
           <a href="#" class="btn btn-ghost">Começar com o básico</a>
         </div>
@@ -248,6 +278,7 @@
           <p class="plan-from">De <s>R$ 297</s> por</p>
           <div class="plan-price"><span class="cur">R$</span><span class="val">97</span></div>
           <p class="plan-install">ou 12x de R$ 9,66</p>
+          <div class="plan-access access-gold">♾️ Acesso <strong>VITALÍCIO</strong> (para sempre)</div>
           <ul class="plan-features">
             <li class="yes"><strong>Todas as apostilas completas</strong></li>
             <li class="yes"><strong>Todos os 4 bônus exclusivos</strong></li>
@@ -268,12 +299,13 @@
           <p class="plan-from">De <s>R$ 157</s> por</p>
           <div class="plan-price"><span class="cur">R$</span><span class="val">67</span></div>
           <p class="plan-install">ou 6x de R$ 11,16</p>
+          <div class="plan-access">⏳ Acesso por <strong>8 meses</strong></div>
           <ul class="plan-features">
             <li class="yes">Todas as apostilas completas</li>
             <li class="yes">Os 4 bônus exclusivos</li>
             <li class="no">Simulados atualizados</li>
             <li class="no">Banco de questões renovado</li>
-            <li class="no">Acesso vitalício <small>(1 ano)</small></li>
+            <li class="no">Acesso vitalício</li>
           </ul>
           <a href="#" class="btn btn-ghost">Escolher o essencial</a>
         </div>
@@ -300,15 +332,15 @@
   </section>
 
   <!-- FAQ -->
-  <section class="section section-light">
+  <section id="faq" class="section section-light">
     <div class="container">
       <h2 class="section-title">Perguntas frequentes</h2>
       <div class="faq">
         <details><summary>As apostilas são físicas ou digitais?</summary><p>São 100% digitais (PDF). Você recebe o acesso imediatamente após a confirmação do pagamento e pode estudar no celular, tablet ou computador.</p></details>
         <details><summary>O material serve para quem está começando do zero?</summary><p>Sim! Esse é exatamente o propósito do DE ZERO A FARDA PMRJ: te levar do absoluto zero até a aprovação, mesmo sem conhecimento prévio.</p></details>
-        <details><summary>Qual a diferença entre os planos?</summary><p>O <strong>Plano Inicial (R$ 37)</strong> traz as apostilas e o cronograma, com acesso por 6 meses. O <strong>Essencial (R$ 67)</strong> inclui também os 4 bônus, com acesso por 1 ano. Já o <strong>Plano Completo (R$ 97)</strong> é o único com <strong>acesso vitalício</strong>, <strong>simulados novos atualizados periodicamente</strong>, banco de questões sempre renovado e suporte prioritário — por isso é o mais escolhido.</p></details>
+        <details><summary>Qual a diferença entre os planos?</summary><p>O <strong>Plano Inicial (R$ 37)</strong> traz as apostilas e o cronograma, com <strong>acesso por 3 meses</strong>. O <strong>Essencial (R$ 67)</strong> inclui também os 4 bônus, com <strong>acesso por 8 meses</strong>. Já o <strong>Plano Completo (R$ 97)</strong> é o único com <strong>acesso vitalício</strong>, <strong>simulados novos atualizados periodicamente</strong>, banco de questões sempre renovado e suporte prioritário — por isso é o mais escolhido.</p></details>
         <details><summary>Os simulados são realmente atualizados?</summary><p>Sim! No Plano Completo você recebe <strong>simulados novos e um banco de questões renovado periodicamente</strong>, acompanhando o estilo da banca e as tendências do concurso — sem pagar nada a mais por isso.</p></details>
-        <details><summary>Por quanto tempo tenho acesso?</summary><p>Depende do plano: 6 meses no Inicial, 1 ano no Essencial e <strong>vitalício no Plano Completo</strong> — com todas as atualizações futuras incluídas de graça.</p></details>
+        <details><summary>Por quanto tempo tenho acesso?</summary><p>Depende do plano: <strong>3 meses</strong> no Inicial, <strong>8 meses</strong> no Essencial e <strong>vitalício (para sempre)</strong> no Plano Completo — este último com todas as atualizações futuras incluídas de graça.</p></details>
         <details><summary>Como funciona a garantia?</summary><p>Todos os planos têm 7 dias de garantia. Se não gostar, devolvemos 100% do seu investimento, sem burocracia.</p></details>
         <details><summary>Quais as formas de pagamento?</summary><p>Cartão de crédito (em até 12x), Pix e Boleto bancário.</p></details>
       </div>
@@ -498,11 +530,29 @@
       });
     };
 
+    /* MARQUEE REATIVO AO SCROLL — linhas deslizam conforme a rolagem (inspiração do portfólio 3D) */
+    FX.marquee = function () {
+      var sec = document.querySelector('.marquee-sec');
+      var r1 = document.querySelector('#mqRow1 .mq-track');
+      var r2 = document.querySelector('#mqRow2 .mq-track');
+      if (!sec || !r1 || !r2) return;
+      function onScroll() {
+        var top = sec.getBoundingClientRect().top + window.scrollY;
+        var off = (window.scrollY - top + window.innerHeight) * 0.3;
+        r1.style.transform = 'translateX(' + (off - 400) + 'px)';   // linha 1 → direita
+        r2.style.transform = 'translateX(' + (-(off - 400)) + 'px)'; // linha 2 → esquerda
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll);
+      onScroll();
+    };
+
     /* ── Liga tudo ── */
     FX.luz(document);
     FX.inercia(document);
     FX.elastico(document);
     FX.transicao(document);
+    FX.marquee();
     if (reduce) {
       // sem movimento: revela direto e mantém o texto final
       var _a = document.querySelector('.js-mascara .antes');
