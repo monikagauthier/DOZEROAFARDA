@@ -301,9 +301,22 @@
     </div>
   </footer>
 
+  <!-- Botão voltar ao topo -->
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">↑</button>
+
   <!-- ===== EFEITOS ===== -->
   <script>
     var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Reveal com stagger (atraso progressivo entre irmãos)
+    document.querySelectorAll('.reveal').forEach(function (el, i) { el.style.transitionDelay = (Math.min(i, 6) * 0.06) + 's'; });
+
+    // Botão voltar ao topo
+    var toTop = document.getElementById('toTop');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 700) toTop.classList.add('show'); else toTop.classList.remove('show');
+    }, { passive: true });
+    toTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
     // Reveal ao rolar
     var io = new IntersectionObserver(function (entries) {
