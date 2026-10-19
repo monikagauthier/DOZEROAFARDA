@@ -20,9 +20,18 @@
   <!-- HERO -->
   <header class="hero">
     <div class="hero-overlay"></div>
+    <canvas id="hero3d" class="hero-3d"></canvas>
     <div class="container hero-content">
       <span class="badge">CONCURSO PMERJ • SOLDADO</span>
-      <h1>DE ZERO <span class="accent">À FARDA</span> PMRJ</h1>
+      <h1>DE ZERO <span class="accent js-scramble" data-texto="À FARDA">À FARDA</span> PMRJ</h1>
+
+      <div class="js-troca">
+        <span>Comece hoje e conquiste</span>
+        <span class="janela"><span class="fita">
+          <span>a farda</span><span>a aprovação</span><span>a estabilidade</span><span>seu futuro</span><span>a farda</span>
+        </span></span>
+      </div>
+
       <p class="hero-sub">
         O material de estudos definitivo para quem quer sair do zero e vestir a farda da
         <strong>Polícia Militar do Rio de Janeiro</strong> — mesmo começando sem saber por onde iniciar.
@@ -34,7 +43,7 @@
         <li>✔ Cronograma de estudos + questões comentadas</li>
       </ul>
 
-      <a href="#oferta" class="btn btn-primary btn-lg pulse">QUERO MINHAS APOSTILAS AGORA ▸</a>
+      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO MINHAS APOSTILAS AGORA ▸</a>
       <p class="hero-guarantee">🔒 Compra 100% segura • Acesso imediato • Garantia de 7 dias</p>
 
       <div class="hero-stats">
@@ -95,7 +104,7 @@
           Nada de material genérico. Cada módulo foi pensado para o perfil da prova da
           <strong>Polícia Militar do Rio de Janeiro</strong>, com foco no que mais cai e em como a banca cobra.
         </p>
-        <a href="#oferta" class="btn btn-primary">GARANTIR MEU ACESSO ▸</a>
+        <a href="#oferta" class="btn btn-primary js-elastico">GARANTIR MEU ACESSO ▸</a>
       </div>
     </div>
   </section>
@@ -139,6 +148,11 @@
         <div class="benefit"><span>✅</span><div><h4>Estude no seu ritmo</h4><p>Acesso digital imediato, no celular, tablet ou computador — onde e quando quiser.</p></div></div>
         <div class="benefit"><span>✅</span><div><h4>Material atualizado</h4><p>Conteúdo alinhado ao edital da PMERJ e às tendências da banca.</p></div></div>
       </div>
+
+      <div class="js-transicao">
+        <div class="tela t1">📚 Apostilas completas do edital</div>
+        <button class="btn btn-ghost">Ver o que mais você recebe ▸</button>
+      </div>
     </div>
   </section>
 
@@ -160,8 +174,43 @@
           <span class="t-author">— Anderson P., Niterói</span>
         </div>
       </div>
+
+      <h3 class="wall-title">Mural de quem está na jornada 👇</h3>
+      <p class="wall-hint">role dentro do quadro para ver mais relatos</p>
+      <div class="js-inercia">
+        <div class="trilho">
+          <div class="item">⭐⭐⭐⭐⭐ "Os simulados atualizados são o que mais me ajudam a sentir o nível da prova." — <strong>Carla T., São Gonçalo</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "Comecei do zero absoluto. Hoje já resolvo questões de Direito com segurança." — <strong>Diego R., Nova Iguaçu</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "O cronograma me deu disciplina. Finalmente parei de estudar sem direção." — <strong>Vanessa L., Rio de Janeiro</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "O guia do TAF me ajudou a preparar o físico junto com a teoria." — <strong>Marcos A., Belford Roxo</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "Plano vitalício valeu demais — recebo material novo sempre." — <strong>Priscila M., Niterói</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "Resumos e mapas mentais salvaram minha revisão de véspera." — <strong>Thiago S., Duque de Caxias</strong></div>
+          <div class="item">⭐⭐⭐⭐⭐ "Muito mais barato que cursinho e muito mais organizado." — <strong>Larissa F., São João de Meriti</strong></div>
+        </div>
+      </div>
+
       <p class="disclaimer">*Depoimentos ilustrativos. Os resultados variam conforme a dedicação de cada aluno.</p>
     </div>
+  </section>
+
+  <!-- ANTES E DEPOIS (máscara que revela) -->
+  <section class="js-mascara">
+    <div class="fixo">
+      <!-- DEPOIS (embaixo): aprovado -->
+      <div class="cena depois">
+        <span class="rotulo">Depois</span>
+        <h2>Fardado, aprovado e realizado na PMERJ.</h2>
+        <p>Com um plano claro e material certo, a aprovação deixa de ser sonho e vira questão de tempo.</p>
+      </div>
+      <!-- ANTES (em cima): perdido — vai sendo "furado" pela rolagem -->
+      <div class="cena antes">
+        <span class="rotulo">Antes</span>
+        <h2>Perdido, sem rumo e sem saber por onde começar.</h2>
+        <p>Mil PDFs, vídeos soltos e aquela sensação de que o concurso é impossível. Role para ver a virada 👇</p>
+        <span class="scroll-dica">▼ role para revelar</span>
+      </div>
+    </div>
+    <div class="alto"></div>
   </section>
 
   <!-- OFERTA / PREÇO -->
@@ -207,7 +256,7 @@
             <li class="yes star"><strong>Acesso VITALÍCIO + atualizações grátis</strong></li>
             <li class="yes">Área de membros + suporte prioritário</li>
           </ul>
-          <a href="#" class="btn btn-primary pulse">QUERO O PLANO COMPLETO ▸</a>
+          <a href="#" class="btn btn-primary pulse js-elastico">QUERO O PLANO COMPLETO ▸</a>
           <p class="plan-note">💛 A escolha de 9 em cada 10 alunos</p>
         </div>
 
@@ -271,7 +320,7 @@
     <div class="container center">
       <h2>Sua farda está te esperando.</h2>
       <p>Comece hoje a jornada DE ZERO A FARDA PMRJ e dê o primeiro passo rumo à sua aprovação.</p>
-      <a href="#oferta" class="btn btn-primary btn-lg pulse">QUERO MINHAS APOSTILAS ▸</a>
+      <a href="#oferta" class="btn btn-primary btn-lg pulse js-elastico">QUERO MINHAS APOSTILAS ▸</a>
     </div>
   </section>
 
@@ -282,6 +331,344 @@
       <p class="footer-small">© 2026 — Todos os direitos reservados.</p>
     </div>
   </footer>
+
+  <!-- ═══ EFEITOS INTERATIVOS (adaptados da vitrine do canal Não Codei) ═══ -->
+  <script>
+    var FX = {};
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* ── Ferramentas de apoio ── */
+    var lerp = function (a, b, t) { return a + (b - a) * t; };
+    var limitar = function (v, min, max) { return Math.max(min, Math.min(max, v)); };
+
+    /* laço que só roda enquanto o elemento está visível */
+    function laco(card, passo) {
+      var id = null, vivo = false, respondeu = false;
+      function rodar() { passo(); id = requestAnimationFrame(rodar); }
+      function ligar() { if (!vivo) { vivo = true; rodar(); } }
+      function desligar() { if (vivo) { vivo = false; cancelAnimationFrame(id); } }
+      var obs = new IntersectionObserver(function (e) {
+        respondeu = true;
+        e[0].isIntersecting ? ligar() : desligar();
+      }, { threshold: 0 });
+      obs.observe(card);
+      setTimeout(function () { if (!respondeu) ligar(); }, 1500);
+      return function () { cancelAnimationFrame(id); obs.disconnect(); };
+    }
+
+    /* progresso 0→1 de uma seção "alta" passando pela viewport (para a máscara) */
+    function aoRolar(secao, passo) {
+      function onScroll() {
+        var r = secao.getBoundingClientRect();
+        var total = r.height - window.innerHeight;
+        var p = limitar((-r.top) / (total || 1), 0, 1);
+        passo(p);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll);
+      onScroll();
+      return function () { window.removeEventListener('scroll', onScroll); };
+    }
+
+    /* 12 · LUZ QUE SEGUE O MOUSE — JS só escreve --x/--y; brilho é CSS */
+    FX.luz = function (root) {
+      root.querySelectorAll('.plan, .content-card').forEach(function (el) {
+        el.addEventListener('mousemove', function (ev) {
+          var r = el.getBoundingClientRect();
+          el.style.setProperty('--x', (ev.clientX - r.left) + 'px');
+          el.style.setProperty('--y', (ev.clientY - r.top) + 'px');
+        });
+      });
+    };
+
+    /* 10 · ROLAGEM COM INÉRCIA — o trilho persegue a posição da rolagem */
+    FX.inercia = function (root) {
+      var caixa = root.querySelector('.js-inercia');
+      if (!caixa) return;
+      var trilho = caixa.querySelector('.trilho');
+      var alvo = 0, atual = 0;
+      var max = function () { return Math.max(0, trilho.scrollHeight - caixa.clientHeight); };
+      caixa.addEventListener('wheel', function (ev) {
+        ev.preventDefault();
+        alvo = limitar(alvo + ev.deltaY, 0, max());
+      }, { passive: false });
+      // suporte a toque no mobile
+      var toqueY = 0;
+      caixa.addEventListener('touchstart', function (ev) { toqueY = ev.touches[0].clientY; }, { passive: true });
+      caixa.addEventListener('touchmove', function (ev) {
+        var dy = toqueY - ev.touches[0].clientY; toqueY = ev.touches[0].clientY;
+        alvo = limitar(alvo + dy, 0, max());
+      }, { passive: true });
+      laco(caixa, function () {
+        atual = lerp(atual, alvo, 0.08);
+        trilho.style.transform = 'translateY(' + (-atual) + 'px)';
+      });
+    };
+
+    /* 05 · MÁSCARA QUE REVELA — círculo encolhe e descobre a cena de baixo */
+    FX.mascara = function (root) {
+      var secao = root.querySelector('.js-mascara');
+      if (!secao) return;
+      var antes = secao.querySelector('.antes');
+      aoRolar(secao, function (p) {
+        var raio = 150 - p * 150;                 // de 150% a 0
+        antes.style.clipPath = 'circle(' + Math.max(0, raio) + '% at 50% 50%)';
+      });
+    };
+
+    /* 14 · BOTÃO ELÁSTICO — mola física com velocidade e amortecimento */
+    FX.elastico = function (root) {
+      root.querySelectorAll('.js-elastico').forEach(function (btn) {
+        var escala = 1, vel = 0, alvo = 1;
+        btn.addEventListener('mouseenter', function () { alvo = 1.08; });
+        btn.addEventListener('mouseleave', function () { alvo = 1; });
+        btn.addEventListener('mousedown', function () { alvo = 0.92; });
+        btn.addEventListener('mouseup', function () { alvo = 1.08; });
+        laco(btn, function () {
+          var forca = (alvo - escala) * 0.22;     // rigidez
+          vel = (vel + forca) * 0.72;             // amortecimento
+          escala += vel;
+          btn.style.transform = 'scale(' + escala + ')';
+        });
+      });
+    };
+
+    /* 15 · EMBARALHAR LETRAS — estilo painel de aeroporto */
+    FX.scramble = function (root) {
+      root.querySelectorAll('.js-scramble').forEach(function (el) {
+        var final = el.dataset.texto || el.textContent;
+        var sopa = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁ#%&@*';
+        var quadro = 0, id;
+        function girar() {
+          var saida = '', travadas = Math.floor(quadro / 3);
+          for (var i = 0; i < final.length; i++) {
+            saida += i < travadas ? final[i]
+              : (final[i] === ' ' ? ' ' : sopa[(Math.random() * sopa.length) | 0]);
+          }
+          el.textContent = saida;
+          quadro++;
+          if (travadas <= final.length) id = requestAnimationFrame(girar);
+        }
+        girar();
+      });
+    };
+
+    /* 17 · PALAVRAS QUE SE ALTERNAM — fita sobe e reinicia sem pulo */
+    FX.troca = function (root) {
+      var janela = root.querySelector('.js-troca .janela');
+      if (!janela) return;
+      var fita = janela.querySelector('.fita');
+      var itens = fita.children.length;
+      var i = 0;
+      setInterval(function () {
+        i++;
+        fita.style.transition = 'transform .5s cubic-bezier(.16,1,.3,1)';
+        fita.style.transform = 'translateY(' + (-i * 100 / itens) + '%)';
+        if (i === itens - 1) {
+          setTimeout(function () {
+            fita.style.transition = 'none';
+            fita.style.transform = 'translateY(0)';
+            i = 0;
+          }, 520);
+        }
+      }, 2000);
+    };
+
+    /* 30 · TRANSIÇÃO ENTRE TELAS — View Transitions API com fallback */
+    FX.transicao = function (root) {
+      var area = root.querySelector('.js-transicao');
+      if (!area) return;
+      var tela = area.querySelector('.tela');
+      var btn = area.querySelector('button');
+      var telas = [
+        { classe: 't1', texto: '📚 Apostilas completas do edital' },
+        { classe: 't2', texto: '📝 Simulados novos + banco de questões' },
+        { classe: 't3', texto: '🎁 4 bônus + acesso vitalício' }
+      ];
+      var estado = 0;
+      tela.style.viewTransitionName = 'tela';
+      btn.addEventListener('click', function () {
+        estado = (estado + 1) % telas.length;
+        var aplicar = function () {
+          tela.className = 'tela ' + telas[estado].classe;
+          tela.textContent = telas[estado].texto;
+        };
+        if (document.startViewTransition) document.startViewTransition(aplicar);
+        else aplicar();
+      });
+    };
+
+    /* ── Liga tudo ── */
+    FX.luz(document);
+    FX.inercia(document);
+    FX.elastico(document);
+    FX.transicao(document);
+    if (reduce) {
+      // sem movimento: revela direto e mantém o texto final
+      var _a = document.querySelector('.js-mascara .antes');
+      if (_a) _a.style.clipPath = 'circle(0% at 50% 50%)';
+    } else {
+      FX.mascara(document);
+      FX.scramble(document);
+      FX.troca(document);
+    }
+    // Efeitos adaptados da vitrine de animações em JavaScript do canal Não Codei.
+  </script>
+
+  <!-- ===== HERO 3D (Three.js / WebGL) ===== -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.182.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module">
+    import * as THREE from 'three';
+
+    const canvas = document.getElementById('hero3d');
+    // Respeita usuários que preferem menos movimento e navegadores sem WebGL.
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    let renderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    } catch (e) {
+      canvas.style.display = 'none';
+    }
+
+    if (renderer) {
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+      const scene = new THREE.Scene();
+
+      const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+      camera.position.set(0, 0, 6.2);
+
+      // ---- Grupo do emblema ----
+      const emblem = new THREE.Group();
+      scene.add(emblem);
+
+      const gold = 0xf5b331;
+      const goldDark = 0xd99812;
+
+      // Escudo (brasão) — formato simétrico com ponta inferior
+      const shieldShape = new THREE.Shape();
+      shieldShape.moveTo(0, 1.7);                              // topo
+      shieldShape.lineTo(1.3, 1.1);                            // ombro direito
+      shieldShape.lineTo(1.3, -0.3);                           // lateral direita
+      shieldShape.quadraticCurveTo(1.3, -1.3, 0, -1.9);        // curva até a ponta
+      shieldShape.quadraticCurveTo(-1.3, -1.3, -1.3, -0.3);    // curva lado esquerdo
+      shieldShape.lineTo(-1.3, 1.1);                           // lateral esquerda
+      shieldShape.lineTo(0, 1.7);                              // volta ao topo
+
+      const shieldGeo = new THREE.ExtrudeGeometry(shieldShape, {
+        depth: 0.35,
+        bevelEnabled: true,
+        bevelThickness: 0.12,
+        bevelSize: 0.1,
+        bevelSegments: 4,
+        curveSegments: 24
+      });
+      shieldGeo.center();
+
+      const shieldMat = new THREE.MeshStandardMaterial({
+        color: gold,
+        metalness: 0.9,
+        roughness: 0.28
+      });
+      const shield = new THREE.Mesh(shieldGeo, shieldMat);
+      emblem.add(shield);
+
+      // Estrela central (5 pontas) em relevo
+      const starShape = new THREE.Shape();
+      const spikes = 5, outer = 0.78, inner = 0.33;
+      for (let i = 0; i < spikes * 2; i++) {
+        const r = i % 2 === 0 ? outer : inner;
+        const a = (Math.PI / spikes) * i - Math.PI / 2;
+        const x = Math.cos(a) * r, y = Math.sin(a) * r;
+        i === 0 ? starShape.moveTo(x, y) : starShape.lineTo(x, y);
+      }
+      starShape.closePath();
+      const starGeo = new THREE.ExtrudeGeometry(starShape, {
+        depth: 0.2, bevelEnabled: true, bevelThickness: 0.06, bevelSize: 0.05, bevelSegments: 2
+      });
+      starGeo.center();
+      const starMat = new THREE.MeshStandardMaterial({ color: 0xffffff, metalness: 0.6, roughness: 0.2 });
+      const star = new THREE.Mesh(starGeo, starMat);
+      star.position.z = 0.33;
+      emblem.add(star);
+
+      // Anel orbitando o emblema
+      const ringGeo = new THREE.TorusGeometry(2.1, 0.045, 16, 120);
+      const ringMat = new THREE.MeshStandardMaterial({ color: goldDark, metalness: 1, roughness: 0.35 });
+      const ring = new THREE.Mesh(ringGeo, ringMat);
+      ring.rotation.x = Math.PI / 2.4;
+      scene.add(ring);
+
+      // Partículas douradas de fundo
+      const pCount = 220;
+      const pPos = new Float32Array(pCount * 3);
+      for (let i = 0; i < pCount * 3; i++) pPos[i] = (Math.random() - 0.5) * 14;
+      const pGeo = new THREE.BufferGeometry();
+      pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+      const pMat = new THREE.PointsMaterial({ color: gold, size: 0.045, transparent: true, opacity: 0.6 });
+      const particles = new THREE.Points(pGeo, pMat);
+      scene.add(particles);
+
+      // ---- Luzes ----
+      scene.add(new THREE.AmbientLight(0x6b7fb0, 0.6));
+      const key = new THREE.DirectionalLight(0xfff0d0, 2.2);
+      key.position.set(4, 5, 6);
+      scene.add(key);
+      const rim = new THREE.DirectionalLight(0xf5b331, 1.6);
+      rim.position.set(-5, -2, -3);
+      scene.add(rim);
+      const fill = new THREE.PointLight(0x4a7bd1, 1.2, 20);
+      fill.position.set(-3, 2, 4);
+      scene.add(fill);
+
+      // ---- Interatividade: leve parallax com o mouse ----
+      let targetX = 0, targetY = 0;
+      window.addEventListener('pointermove', (e) => {
+        targetX = (e.clientX / window.innerWidth - 0.5) * 0.5;
+        targetY = (e.clientY / window.innerHeight - 0.5) * 0.4;
+      });
+
+      // ---- Resize responsivo ----
+      function resize() {
+        const w = canvas.clientWidth || window.innerWidth;
+        const h = canvas.clientHeight || 1;
+        renderer.setSize(w, h, false);
+        camera.aspect = w / h;
+        camera.updateProjectionMatrix();
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      // ---- Loop de animação ----
+      const clock = new THREE.Clock();
+      function animate() {
+        requestAnimationFrame(animate);
+        const t = clock.getElapsedTime();
+
+        if (!reduceMotion) {
+          emblem.rotation.y += 0.012;          // giro principal
+          emblem.rotation.x = Math.sin(t * 0.6) * 0.12 + targetY;
+          emblem.position.y = Math.sin(t * 1.1) * 0.12;   // flutuação sutil
+          ring.rotation.z += 0.006;
+          particles.rotation.y += 0.0008;
+        }
+        // parallax suave
+        emblem.rotation.y += (targetX - 0) * 0.0;
+        camera.position.x += (targetX * 1.2 - camera.position.x) * 0.05;
+        camera.lookAt(0, 0, 0);
+
+        renderer.render(scene, camera);
+      }
+      animate();
+    }
+  </script>
 
 </body>
 </html>
