@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <radialGradient id="sbgGlow" cx="50%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#2f7be4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2f7be4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="48" height="48" fill="none"/>
+      <path d="M0 0 H48" stroke="#2f7be4" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="800" fill="#080c16"/>
+  <rect width="1440" height="800" fill="url(#grid)"/>
+  <rect width="1440" height="800" fill="url(#sbgGlow)"/>
+</svg>

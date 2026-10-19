@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" width="1440" height="500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Cena com policial da PMERJ e o Rio de Janeiro">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15233f"/>
+      <stop offset="1" stop-color="#06101f"/>
+    </linearGradient>
+    <radialGradient id="fglow" cx="60%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#2f7be4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2f7be4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="500" fill="url(#fsky)"/>
+  <rect width="1440" height="500" fill="url(#fglow)"/>
+  <!-- skyline -->
+  <path d="M0 360 C200 320 360 350 520 330 C760 300 980 350 1200 320 C1320 305 1380 330 1440 320 L1440 500 L0 500Z" fill="#0b1a30"/>
+  <!-- luzes viatura -->
+  <circle cx="300" cy="250" r="40" fill="#2f7be4" opacity="0.25"/>
+  <circle cx="360" cy="250" r="40" fill="#e04b4b" opacity="0.2"/>
+  <!-- silhueta policial (esquerda) -->
+  <g transform="translate(120,180)" fill="#0a1526">
+    <ellipse cx="90" cy="70" rx="60" ry="66"/>
+    <path d="M0 220 C0 150 40 120 90 120 C140 120 180 150 180 220 L180 320 L0 320Z"/>
+    <rect x="40" y="170" width="100" height="150" rx="12" fill="#0c1a30"/>
+    <text x="90" y="210" text-anchor="middle" font-family="Montserrat,Arial" font-weight="900" font-size="18" fill="#3f6fa8">PMERJ</text>
+  </g>
+</svg>

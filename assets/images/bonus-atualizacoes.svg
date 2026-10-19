@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Atualizações gratuitas">
+  <circle cx="60" cy="60" r="56" fill="#0d1d34" stroke="#234a79"/>
+  <path d="M42 58 a18 18 0 1 1 5 13" fill="none" stroke="#2f7be4" stroke-width="5" stroke-linecap="round"/>
+  <path d="M40 44 L44 60 L58 54 Z" fill="#5b8fd6"/>
+  <path d="M60 68 v14 M53 76 l7 7 l7 -7" stroke="#cfe2ff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

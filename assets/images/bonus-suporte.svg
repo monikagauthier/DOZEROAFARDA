@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Grupo de suporte">
+  <circle cx="60" cy="60" r="56" fill="#0d1d34" stroke="#234a79"/>
+  <path d="M35 40 h50 a8 8 0 0 1 8 8 v22 a8 8 0 0 1 -8 8 H58 l-14 12 v-12 h-9 a8 8 0 0 1 -8 -8 V48 a8 8 0 0 1 8 -8Z" fill="#2f7be4"/>
+  <circle cx="48" cy="59" r="4" fill="#fff"/><circle cx="60" cy="59" r="4" fill="#fff"/><circle cx="72" cy="59" r="4" fill="#fff"/>
+</svg>

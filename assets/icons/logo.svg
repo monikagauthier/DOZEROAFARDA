@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="DO ZERO À FARDA PMERJ">
+  <defs>
+    <linearGradient id="lgBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ea8ff"/>
+      <stop offset="1" stop-color="#2f7be4"/>
+    </linearGradient>
+  </defs>
+  <!-- escudo -->
+  <g transform="translate(6,6)">
+    <path d="M22 0 L44 7 V24 C44 36 34 42 22 46 C10 42 0 36 0 24 V7 Z" fill="url(#lgBlue)"/>
+    <path d="M22 4 L40 9.5 V24 C40 33.5 31.5 38.8 22 42.2 C12.5 38.8 4 33.5 4 24 V9.5 Z" fill="#0b1a30"/>
+    <text x="22" y="29" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="15" fill="#6ea8ff">PM</text>
+  </g>
+  <!-- wordmark -->
+  <g font-family="Montserrat, Arial, sans-serif" fill="#ffffff">
+    <text x="58" y="22" font-weight="700" font-size="13" letter-spacing="1">DO ZERO À</text>
+    <text x="58" y="40" font-weight="900" font-size="15" letter-spacing="1">FARDA <tspan fill="#4d9bff">PMRJ</tspan></text>
+  </g>
+</svg>

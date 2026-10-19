@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Edital resumido">
+  <circle cx="60" cy="60" r="56" fill="#0d1d34" stroke="#234a79"/>
+  <rect x="40" y="30" width="40" height="56" rx="4" fill="#eef4ff"/>
+  <rect x="40" y="30" width="40" height="12" rx="4" fill="#2f7be4"/>
+  <text x="60" y="40" text-anchor="middle" font-family="Montserrat,Arial" font-weight="800" font-size="7" fill="#fff">EDITAL</text>
+  <rect x="47" y="50" width="26" height="3" rx="1.5" fill="#23466f"/>
+  <rect x="47" y="58" width="26" height="3" rx="1.5" fill="#6c8bb5"/>
+  <rect x="47" y="66" width="18" height="3" rx="1.5" fill="#6c8bb5"/>
+  <rect x="47" y="74" width="22" height="3" rx="1.5" fill="#6c8bb5"/>
+</svg>

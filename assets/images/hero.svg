@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Cena do Rio de Janeiro com policial">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13365f"/>
+      <stop offset="0.55" stop-color="#0b2140"/>
+      <stop offset="1" stop-color="#060f1e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="38%" r="55%">
+      <stop offset="0" stop-color="#3f7fd6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3f7fd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="officer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a44"/>
+      <stop offset="1" stop-color="#070d1a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#0b2140"/>
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <rect width="1440" height="900" fill="url(#glow)"/>
+
+  <!-- morros / montanhas do Rio -->
+  <path d="M0 560 C180 470 300 520 440 500 C560 485 640 430 760 450 L760 900 L0 900 Z" fill="#10233f" opacity="0.8"/>
+  <path d="M700 520 C820 470 900 500 1020 480 C1160 455 1280 500 1440 470 L1440 900 L700 900 Z" fill="#0d1e38" opacity="0.9"/>
+
+  <!-- Cristo Redentor estilizado -->
+  <g transform="translate(360,300)" fill="#9fb6d8" opacity="0.5">
+    <rect x="-3" y="0" width="6" height="70"/>
+    <rect x="-34" y="18" width="68" height="7" rx="3"/>
+    <circle cx="0" cy="-8" r="7"/>
+  </g>
+
+  <!-- luzes da cidade -->
+  <g fill="#ffd27a" opacity="0.5">
+    <circle cx="120" cy="700" r="2"/><circle cx="180" cy="720" r="2"/><circle cx="240" cy="690" r="2"/>
+    <circle cx="300" cy="730" r="2"/><circle cx="360" cy="710" r="2"/><circle cx="90" cy="740" r="2"/>
+    <circle cx="420" cy="735" r="2"/><circle cx="500" cy="760" r="2"/><circle cx="60" cy="690" r="2"/>
+  </g>
+
+  <!-- silhueta de policial (lado direito) -->
+  <g transform="translate(980,250)" fill="url(#officer)">
+    <ellipse cx="150" cy="120" rx="95" ry="105"/>            <!-- cabeça/boina -->
+    <path d="M150 20 q90 -14 150 18 q-20 -40 -70 -48 q-55 -9 -80 30Z" fill="#0a1424"/> <!-- boina -->
+    <path d="M10 320 C10 240 60 200 150 200 C240 200 300 250 300 330 L310 650 L-10 650 Z"/> <!-- torso -->
+    <!-- colete / detalhes -->
+    <rect x="70" y="260" width="160" height="300" rx="20" fill="#0c1a30"/>
+    <rect x="95" y="300" width="110" height="34" rx="6" fill="#16365f"/>
+    <text x="150" y="325" text-anchor="middle" font-family="Montserrat, Arial" font-weight="900" font-size="22" fill="#5b8fd6">PMERJ</text>
+  </g>
+</svg>
